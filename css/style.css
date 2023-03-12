@@ -211,31 +211,31 @@ h6 {
 }
 
 .menu .ico-schedule {
-  background-image: url('css-ex-zutobi/img/icons/1f906d1a974b26da13ac.svg');
+  background-image: url('/css-ex-zutobi/img/icons/1f906d1a974b26da13ac.svg');
 }
 
 .menu .ico-calendar {
-  background-image: url('css-ex-zutobi/img/icons/5d2713fadae3e8647129.svg');
+  background-image: url('/css-ex-zutobi/img/icons/5d2713fadae3e8647129.svg');
 }
 
 .menu .ico-students {
-  background-image: url('css-ex-zutobi/img/icons/be3b1520d911d3da29ac.svg');
+  background-image: url('/css-ex-zutobi/img/icons/be3b1520d911d3da29ac.svg');
 }
 
 .menu .ico-students-sel {
-  background-image: url('css-ex-zutobi/img/icons/8a0a748e126436e120fd.svg');
+  background-image: url('/css-ex-zutobi/img/icons/8a0a748e126436e120fd.svg');
 }
 
 .menu .ico-profile {
-  background-image: url('css-ex-zutobi/img/icons/d230bbdf1f7bce3ffa3a.svg');
+  background-image: url('/css-ex-zutobi/img/icons/d230bbdf1f7bce3ffa3a.svg');
 }
 
 .menu .ico-help {
-  background-image: url('css-ex-zutobi/img/icons/8852f70abbba1863d632.svg');
+  background-image: url('/css-ex-zutobi/img/icons/8852f70abbba1863d632.svg');
 }
 
 .menu .ico-logout {
-  background-image: url('css-ex-zutobi/img/icons/d22720ec7efb95af437a.svg');
+  background-image: url('/css-ex-zutobi/img/icons/d22720ec7efb95af437a.svg');
 }
 
 .logo {
@@ -261,7 +261,7 @@ h6 {
   line-height: 150%;
   letter-spacing: 0.005em;
   color: #146462;
-  background: url('css-ex-zutobi//img/icons/de0f9869098a0b26db46.svg') 0 50% no-repeat;
+  background: url('/css-ex-zutobi//img/icons/de0f9869098a0b26db46.svg') 0 50% no-repeat;
 }
 
 .upper-content_container {
@@ -476,7 +476,7 @@ h6 {
   border: 1px solid #EAECF5;
   border-radius: 8px;
   padding: 8px 0 0 44px;
-  background: url('css-ex-zutobi//img/icons/a466cba51e55cddb0288.svg') 19px 50% no-repeat;
+  background: url('/css-ex-zutobi//img/icons/a466cba51e55cddb0288.svg') 19px 50% no-repeat;
   font-size: 1rem;
   line-height: 150%;
   color: #9CA1B9;
