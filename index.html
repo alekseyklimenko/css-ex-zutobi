@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://use.typekit.net/obv8sab.css?_v=20230312143635">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230312143635">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0 user-scalable=0">
+</head>
+
+<body>
+	<div id="root" class="wrapper root__container">
+		<div class="sidebar_container">
+			<div class="sidebar_row upper-block">
+				<div class="logo">
+					<a href="">
+						<img class="burger" src="img/burger.svg" width="20" height="20" alt="" />
+						<img class="logo-image" src="img/zutobilogo.svg" width="80" height="26" alt="Zutobi logo" />
+					</a>
+				</div>
+				<div class="menu">
+					<a href="">
+						<div class="menu-item">
+							<div class="menu-item-icon ico-schedule menu-item-text">Schedule</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="menu-item">
+							<div class="menu-item-icon ico-calendar menu-item-text">Calendar</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="menu-item selected">
+							<div class="menu-item-icon ico-students-sel menu-item-text">Students</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="menu-item">
+							<div class="menu-item-icon ico-profile menu-item-text">My profile</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="sidebar_row bottom-block">
+				<div class="menu">
+					<a href="">
+						<div class="menu-item">
+							<div class="menu-item-icon ico-help menu-item-text">Help</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="menu-item">
+							<div class="menu-item-icon ico-logout menu-item-text">Logout</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="content_container">
+			<div class="upper-nav-block">
+				<a href="">
+					<div class="back-button">Back</div>
+				</a>
+			</div>
+			<div class="upper-content_container">
+				<div class="upper-content__column page-title">Students</div>
+				<div class="upper-content__column">
+					<button class="add-student-button">Add Student +</button>
+				</div>
+			</div>
+			<div class="tabs_container">
+				<a href="">
+					<div class="tab_column selected">Current (<span id="tab-current-count">26</span>)</div>
+				</a>
+				<a href="">
+					<div class="tab_column">Waiting (<span id="tab-waiting-count">3</span>)</div>
+				</a>
+				<a href="">
+					<div class="tab_column">Archive (<span id="tab-archive-count">0</span>)</div>
+				</a>
+			</div>
+			<div class="main-content_container">
+				<div class="main-content-search-bar">
+					<div class="found-students-count">Found <span id="students-count">14</span> active students</div>
+					<div class="search-by-name">
+						<input type="text" id="search-student-input" name="search-by-name" placeholder="Search by name" />
+					</div>
+				</div>
+				<div class="main-content-students-list students-list">
+					<div class="current-student-card">
+						<div class="upper-background"></div>
+						<div class="student-photo"><picture><source srcset="img/avatars/avatar1.webp" type="image/webp"><img src="img/avatars/avatar1.jpg" alt="Esther Howard" /></picture></div>
+						<div class="student-info-block">
+							<div class="student-name">Esther Howard</div>
+							<div class="finished-lessons"><span class="finished-lessons-count">6</span> finished lessons</div>
+							<div class="contact-button-wrapper"><a href="">
+									<div class="contact-button">contact</div>
+								</a></div>
+						</div>
+					</div>
+
+					<div class="current-student-card">
+						<div class="upper-background"></div>
+						<div class="student-photo"><picture><source srcset="img/avatars/avatar2.webp" type="image/webp"><img src="img/avatars/avatar2.jpg" alt="Wade Warren" /></picture></div>
+						<div class="student-info-block">
+							<div class="student-name">Wade Warren</div>
+							<div class="finished-lessons"><span class="finished-lessons-count">1</span> finished lessons</div>
+							<div class="contact-button-wrapper"><a href="">
+									<div class="contact-button">contact</div>
+								</a></div>
+						</div>
+					</div>
+
+					<div class="current-student-card">
+						<div class="upper-background"></div>
+						<div class="student-photo"><picture><source srcset="img/avatars/avatar3.webp" type="image/webp"><img src="img/avatars/avatar3.jpg" alt="Cameron Williamson" /></picture></div>
+						<div class="student-info-block">
+							<div class="student-name">Cameron Williamson</div>
+							<div class="finished-lessons"><span class="finished-lessons-count">9</span> finished lessons</div>
+							<div class="contact-button-wrapper"><a href="">
+									<div class="contact-button">contact</div>
+								</a></div>
+						</div>
+					</div>
+
+					<div class="current-student-card">
+						<div class="upper-background"></div>
+						<div class="student-photo"><picture><source srcset="img/avatars/avatar4.webp" type="image/webp"><img src="img/avatars/avatar4.jpg" alt="Leslie Alexander" /></picture></div>
+						<div class="student-info-block">
+							<div class="student-name">Leslie Alexander</div>
+							<div class="finished-lessons"><span class="finished-lessons-count">2</span> finished lessons</div>
+							<div class="contact-button-wrapper"><a href="">
+									<div class="contact-button">contact</div>
+								</a></div>
+						</div>
+					</div>
+
+					<div class="current-student-card">
+						<div class="upper-background"></div>
+						<div class="student-photo"><picture><source srcset="img/avatars/avatar5.webp" type="image/webp"><img src="img/avatars/avatar5.jpg" alt="Jenny Wilson" /></picture></div>
+						<div class="student-info-block">
+							<div class="student-name">Jenny Wilson</div>
+							<div class="finished-lessons"><span class="finished-lessons-count">6</span> finished lessons</div>
+							<div class="contact-button-wrapper"><a href="">
+									<div class="contact-button">contact</div>
+								</a></div>
+						</div>
+					</div>
+
+					<div class="current-student-card">
+						<div class="upper-background"></div>
+						<div class="student-photo"><picture><source srcset="img/avatars/avatar6.webp" type="image/webp"><img src="img/avatars/avatar6.jpg" alt="Guy Hawkins" /></picture></div>
+						<div class="student-info-block">
+							<div class="student-name">Guy Hawkins</div>
+							<div class="finished-lessons"><span class="finished-lessons-count">12</span> finished lessons</div>
+							<div class="contact-button-wrapper"><a href="">
+									<div class="contact-button">contact</div>
+								</a></div>
+						</div>
+					</div>
+
+					<div class="current-student-card">
+						<div class="upper-background"></div>
+						<div class="student-photo"><picture><source srcset="img/avatars/avatar7.webp" type="image/webp"><img src="img/avatars/avatar7.jpg" alt="Savannah Nguyen" /></picture></div>
+						<div class="student-info-block">
+							<div class="student-name">Savannah Nguyen</div>
+							<div class="finished-lessons"><span class="finished-lessons-count">4</span> finished lessons</div>
+							<div class="contact-button-wrapper"><a href="">
+									<div class="contact-button">contact</div>
+								</a></div>
+						</div>
+					</div>
+
+					<div class="current-student-card">
+						<div class="upper-background"></div>
+						<div class="student-photo"><picture><source srcset="img/avatars/avatar8.webp" type="image/webp"><img src="img/avatars/avatar8.jpg" alt="Bessie Cooper" /></picture></div>
+						<div class="student-info-block">
+							<div class="student-name">Bessie Cooper</div>
+							<div class="finished-lessons"><span class="finished-lessons-count">8</span> finished lessons</div>
+							<div class="contact-button-wrapper"><a href="">
+									<div class="contact-button">contact</div>
+								</a></div>
+						</div>
+					</div>
+
+					<div class="current-student-card">
+						<div class="upper-background"></div>
+						<div class="student-photo"><picture><source srcset="img/avatars/avatar7.webp" type="image/webp"><img src="img/avatars/avatar7.jpg" alt="Darlene Robertson" /></picture></div>
+						<div class="student-info-block">
+							<div class="student-name">Darlene Robertson</div>
+							<div class="finished-lessons"><span class="finished-lessons-count">2</span> finished lessons</div>
+							<div class="contact-button-wrapper"><a href="">
+									<div class="contact-button">contact</div>
+								</a></div>
+						</div>
+					</div>
+
+					<div class="current-student-card">
+						<div class="upper-background"></div>
+						<div class="student-photo"><picture><source srcset="img/avatars/avatar9.webp" type="image/webp"><img src="img/avatars/avatar9.jpg" alt="Courtney Henry" /></picture></div>
+						<div class="student-info-block">
+							<div class="student-name">Courtney Henry</div>
+							<div class="finished-lessons"><span class="finished-lessons-count">8</span> finished lessons</div>
+							<div class="contact-button-wrapper"><a href="">
+									<div class="contact-button">contact</div>
+								</a></div>
+						</div>
+					</div>
+
+				</div>
+				<div class="main-content-pager-bar">
+					<div class="showing-entries-count">Showing <span id="showing-entries-from">1</span> of <span id="showing-entries-to">6</span> entries</div>
+					<div class="main-content-pager">
+						<div class="pager-button">
+							<div class="pager-button-inner arrow">&#60;</div>
+						</div>
+						<div class="pager-button">
+							<div class="pager-button-inner selected">1</div>
+						</div>
+						<div class="pager-button"><a href="">
+								<div class="pager-button-inner">2</div>
+							</a></div>
+						<div class="pager-button"><a href="">
+								<div class="pager-button-inner">3</div>
+							</a></div>
+						<div class="pager-button"><a href="">
+								<div class="pager-button-inner">...</div>
+							</a></div>
+						<div class="pager-button"><a href="">
+								<div class="pager-button-inner">5</div>
+							</a></div>
+						<div class="pager-button"><a href="">
+								<div class="pager-button-inner arrow enabled">&#62;</div>
+							</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
