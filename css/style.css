@@ -8,7 +8,7 @@
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -68,9 +68,9 @@ h6 {
 .lock body {
   overflow: hidden;
   -ms-touch-action: none;
-      touch-action: none;
+  touch-action: none;
   -ms-scroll-chaining: none;
-      overscroll-behavior: none;
+  overscroll-behavior: none;
 }
 
 .wrapper {
@@ -80,8 +80,8 @@ h6 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   overflow: hidden;
 }
 
@@ -93,17 +93,12 @@ h6 {
 
 .wrapper > main {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .wrapper > * {
   min-width: 0;
-}
-
-[class*=__container] {
-  max-width: 90rem;
-  margin: 0 auto;
 }
 
 [class*=-ibg] {
@@ -117,18 +112,18 @@ h6 {
   top: 0;
   left: 0;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 [class*=-ibg_contain] img {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .root__container {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .sidebar_container {
@@ -138,50 +133,49 @@ h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .sidebar_container .sidebar_row {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   padding: 0 16px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0 auto;
 }
 
 .sidebar_container .bottom-block {
   -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
   padding-bottom: 20px;
 }
 
 .content_container {
-  max-width: 1180px;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   background: #F5F5F5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .menu .menu-item {
@@ -271,11 +265,11 @@ h6 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .upper-content_container .page-title {
@@ -292,7 +286,7 @@ h6 {
   background: -o-linear-gradient(353.07deg, #1A8F89 2.23%, #137272 98.4%);
   background: linear-gradient(96.93deg, #1A8F89 2.23%, #137272 98.4%);
   -webkit-box-shadow: 0 4px 8px rgba(10, 97, 114, 0.3);
-          box-shadow: 0 4px 8px rgba(10, 97, 114, 0.3);
+  box-shadow: 0 4px 8px rgba(10, 97, 114, 0.3);
   border-radius: 8px;
   font-weight: 700;
   font-size: 0.8125rem;
@@ -310,11 +304,11 @@ h6 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   border-bottom: 0.5px solid #DDDFEB;
 }
 
@@ -337,15 +331,15 @@ h6 {
 
 .main-content_container {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background: #FFFFFF;
   border-radius: 24px;
   margin: 16px 36px 32px;
@@ -353,18 +347,18 @@ h6 {
 
 .main-content_container .main-content-students-list {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   margin: 12px 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .main-content_container .main-content-students-list .current-student-card {
@@ -385,7 +379,7 @@ h6 {
 
 .main-content_container .main-content-students-list .current-student-card .student-photo {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 132px;
   height: 132px;
   border: 6px solid #F9F9FB;
@@ -409,11 +403,11 @@ h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .main-content_container .main-content-students-list .current-student-card .student-info-block .student-name {
@@ -438,7 +432,7 @@ h6 {
   height: 32px;
   border-radius: 8px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 1px solid #1A8F89;
   font-weight: 700;
   font-size: 0.8125rem;
@@ -456,11 +450,11 @@ h6 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .main-content_container .main-content-search-bar .found-students-count {
@@ -472,7 +466,7 @@ h6 {
   width: 280px;
   height: 40px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 1px solid #EAECF5;
   border-radius: 8px;
   padding: 8px 0 0 44px;
@@ -517,14 +511,6 @@ h6 {
   opacity: 1;
 }
 
-.main-content_container .main-content-search-bar .search-by-name input::-ms-input-placeholder {
-  color: #9CA1B9;
-}
-
-.main-content_container .main-content-search-bar .search-by-name input::-ms-input-placeholder {
-  color: #9CA1B9;
-}
-
 .main-content_container .main-content-pager-bar {
   margin: 39px 36px 24px 36px;
   display: -webkit-box;
@@ -532,11 +518,11 @@ h6 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .main-content_container .main-content-pager-bar .showing-entries-count {
@@ -549,8 +535,8 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .main-content_container .main-content-pager-bar .main-content-pager .pager-button {
